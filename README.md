@@ -52,7 +52,9 @@ python3 main.py -m <message> -g <gpu_id> --use_txt <0~1, higher value means y_t 
 
 
 
-1 - target : In this article, we have shown that "Voice Conversion"
+1 - 
+
+target : In this article, we have shown that "Voice Conversion"
 based on feeling
 Uses. Although research 2 that uses the "multipurpose training" method
 There is a lot about "audio conversion", the conversion function
@@ -61,3 +63,13 @@ used educationally. By combining these two methods, the previous problem is solv
 will be. A single model for both "sound conversion" and
 "Speech to text" is optimized and the created system will cause
 It can be used for both methods.
+
+2 - 
+
+The result shows that "multipurpose training" to a significant extent
+It reduces the amount of error of the word VGR and the evaluations as well
+it shows.
+The content decoder will also increase the quality
+"Sound recognition and reconstruction" will be.
+And the hardware platform related to VC and TTS to its minimum extent
+will receive
