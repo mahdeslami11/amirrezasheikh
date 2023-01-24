@@ -426,3 +426,9 @@ class Highway(nn.Module):
         5 -
         
         As mentioned in section 3, adding these codes improves the performance of the program in Kolb to recognize new and wider input values.
+        
+        6 -
+        
+        org file = https://github.com/ktho22/vctts
+        
+        7 - amir sheikh / electrical engeenering student / srb.iau.ir / iran
