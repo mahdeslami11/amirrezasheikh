@@ -73,3 +73,10 @@ The content decoder will also increase the quality
 "Sound recognition and reconstruction" will be.
 And the hardware platform related to VC and TTS to its minimum extent
 will receive
+
+3 - ketabkhooneh ha
+
+//import torch
+import numpy as np
+from scipy.signal import get_window
+import librosa.util as librosa_util//
