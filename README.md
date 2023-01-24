@@ -422,3 +422,7 @@ class Highway(nn.Module):
             linear = self.linear[layer](x)
             x = gate * nonlinear + (1 - gate) * linear
         return x
+        
+        5 -
+        
+        As mentioned in section 3, adding these codes improves the performance of the program in Kolb to recognize new and wider input values.
