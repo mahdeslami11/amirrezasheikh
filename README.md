@@ -50,3 +50,14 @@ python3 preprocess.py --txt_dir <txt_dir> --wav_dir <wav_dir> --bin_dir <bin_dir
 python3 main.py -m <message> -g <gpu_id> --use_txt <0~1, higher value means y_t batch is more sampled>
 ```
 
+
+
+1 - target : In this article, we have shown that "Voice Conversion"
+based on feeling
+Uses. Although research 2 that uses the "multipurpose training" method
+There is a lot about "audio conversion", the conversion function
+Voices, due to the lack of preservation of linguistic information, from the multi-purpose method
+used educationally. By combining these two methods, the previous problem is solved
+will be. A single model for both "sound conversion" and
+"Speech to text" is optimized and the created system will cause
+It can be used for both methods.
